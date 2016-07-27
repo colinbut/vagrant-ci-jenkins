@@ -4,6 +4,11 @@ if [ ! -f /etc/init.d/jenkins ];
 then
 	echo "Installing Jenkins"
 
+	# URL: http://localhost:6060
+	# Home: /var/lib/jenkins
+	# Start/Stop: /etc/init.d/jenkins
+	# Config: /etc/default/jenkins
+	# Jenkins log: /var/log/jenkins/jenkins.log
 	wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 	sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
 	apt-get update
