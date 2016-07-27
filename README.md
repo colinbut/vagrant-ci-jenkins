@@ -7,7 +7,7 @@ This port on the guest machine is mapped to (forwared) to host port.
 
 1. Clone this repo
   ```
-  git clone 
+  git clone https://github.com/colinbut/vagrant-ci-jenkins.git
   ```
 
 2. vagrant up
