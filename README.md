@@ -15,4 +15,4 @@ This port on the guest machine is mapped to (forwared) to host port.
   vagrant up
   ```
 
-3. navigate to http://127.0.0.1:6060 on your browser
+3. navigate to http://192.168.33.20:6060 on your browser
